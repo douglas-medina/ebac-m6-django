@@ -1,5 +1,6 @@
 import pytest
 from django.urls import reverse
+from mysite import settings
 
 @pytest.mark.django_db
 def test_post_views(pytestconfig):
